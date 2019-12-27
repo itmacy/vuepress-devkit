@@ -16,8 +16,8 @@ git init
 git add -A
 git commit -m '搭建博客基础框架'
 
-# 如果你想要部署到 https://USERNAME.github.io
-git push -f git@github.com:itmacy/itmacy.github.io.git master
+# 如果你想要部署到 https://USERNAME.github.io，注意把USERNAME替换为自己的github账号
+git push -f git@github.com:USERNAME/USERNAME.github.io.git master
 
 # 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages

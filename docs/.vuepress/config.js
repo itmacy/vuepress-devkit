@@ -20,7 +20,7 @@ module.exports = {
           {text: '博客园', link: 'https://www.cnblogs.com/itmacy/'},
           {text: '简书', link: 'https://www.jianshu.com/u/88c9ba7ac8bd' },
           {text: '微信公众号', link: '/wechat' },
-          {text: '关于', link: '/about.md' },
+          {text: '关于', link: '/about' },
         ]
       }
 
@@ -53,8 +53,8 @@ module.exports = {
       ],
       '/':[
           '',
-          'about.md',
-          'contact.md'
+          'about',
+          'contact'
       ],
     }
   }
