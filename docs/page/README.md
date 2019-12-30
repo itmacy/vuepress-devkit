@@ -1,4 +1,5 @@
-# vuepress-devkit
+# [vuepress-devkit](https://github.com/itmacy/vuepress-devkit)
+
 ## 项目说明
 该项目是基于项目[vuepress-demo](https://github.com/itmacy/vuepress-demo)开发的一款vuepress开发工具，可作为使用vuepress搭建博客的初始模板。
 
@@ -6,6 +7,8 @@
 - 1.安装node环境
 - 2.运行：`npm run dev`。
 - 3.访问： `http://localhost:8080/`。
+
+> 注意：package.json文件中的部署脚本指令：`"deploy": "start deploy.sh"`是针对Windows操作系统下运行的，如果是mac系统，则把`start`替换为`bash`。
 
 ## 项目部署
 - 1.在github上创建两个repository，第一个名为`USERNAME.github.io`（USERNAME替换成自己的github账号），第二个名字随意，例如VuePressBlog，并把VuePressBlog
